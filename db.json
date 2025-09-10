@@ -1,0 +1,44 @@
+{
+  "usuarios": [
+    {
+      "id": "c1",
+      "password": "hash123",
+      "registrado": true,
+      "activo": true,
+      "contacto": "usuario1@empresa.com",
+      "nombre": "usuario Uno",
+      "fechaAlta": "2025-09-01T10:00:00Z",
+      "fechaCambioPassword": "2025-09-05T12:00:00Z",
+      "fechaUltimoIngreso": "2025-09-07T09:00:00Z"
+    },
+    {
+      "id": "c2",
+      "password": "hash456",
+      "registrado": true,
+      "activo": true,
+      "contacto": "usuario2@empresa.com",
+      "nombre": "usuario Dos",
+      "fechaAlta": "2025-09-02T14:00:00Z",
+      "fechaCambioPassword": null,
+      "fechaUltimoIngreso": null
+    }
+  ],
+  "tickets": [
+    {
+      "id": "t1",
+      "descripcion": "No puedo acceder al sistema",
+      "fechaAlta": "2025-09-08T09:00:00Z",
+      "fechaUltimo": "2025-09-08T09:00:00Z",
+      "estado": "OPEN",
+      "id_usuario": "c1"
+    },
+    {
+      "id": "t2",
+      "descripcion": "Error en facturación",
+      "fechaAlta": "2025-09-05T08:00:00Z",
+      "fechaUltimo": "2025-09-06T12:00:00Z",
+      "estado": "RESUELTO",
+      "id_usuario": "c1"
+    }
+  ]
+}
